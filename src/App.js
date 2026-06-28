@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Toaster } from 'react-hot-toast';
-import { TaskProvider, useTaskContext } from './context/TaskContext';
+import { TaskProvider, useTaskContext } from './TaskContext';
 import TaskCard from './components/TaskCard';
 import TaskForm from './components/TaskForm';
 import FilterBar from './components/FilterBar';
