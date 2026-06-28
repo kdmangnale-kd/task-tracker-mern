@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const { body, validationResult, param, query } = require('express-validator');
-const Task = require('../models/Task');
-const { asyncHandler } = require('../middleware/errorHandler');
+const Task = require('./Task');
+const { asyncHandler } = require('./errorHandler');
 
 // Validation rules
 const taskValidation = [
